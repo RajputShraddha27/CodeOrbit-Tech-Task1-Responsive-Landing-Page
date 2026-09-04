@@ -1,0 +1,27 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.temporary-content {
+  min-height: calc(100vh - 78px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+.temporary-content h1 {
+  color: #0f172a;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 800;
+}
+
+.temporary-content p {
+  margin-top: 12px;
+  color: #64748b;
+  font-size: 18px;
+}
