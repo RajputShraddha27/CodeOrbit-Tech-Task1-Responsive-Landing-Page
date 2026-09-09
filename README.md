@@ -4,7 +4,7 @@ WanderWay is a modern and responsive travel agency landing page built using Reac
 
 ## Live Demo
 
-[[The live demo link will be added after deployment.](https://codeorbit-task1-responsivelandingpage.netlify.app/)]
+[[View Live Project](https://codeorbit-task1-responsivelandingpage.netlify.app/)]
 
 ## Features
 
