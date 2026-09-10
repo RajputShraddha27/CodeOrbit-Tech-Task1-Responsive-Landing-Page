@@ -4,13 +4,10 @@
   color: #cbd5e1;
   background-color: #061b2d;
 }
-
 .footer-main {
   padding-bottom: 60px;
 }
-
 /* Footer Logo and About */
-
 .footer-logo {
   width: fit-content;
   display: inline-flex;
@@ -21,15 +18,12 @@
   font-weight: 800;
   letter-spacing: -0.6px;
 }
-
 .footer-logo:hover {
   color: #ffffff;
 }
-
 .footer-logo > span:last-child span {
   color: #fb923c;
 }
-
 .footer-logo-icon {
   width: 42px;
   height: 42px;
@@ -42,7 +36,6 @@
   background: linear-gradient(135deg, #0284c7, #06b6d4);
   transform: rotate(-7deg);
 }
-
 .footer-about > p {
   max-width: 390px;
   margin: 21px 0 0;
@@ -50,16 +43,13 @@
   font-size: 14px;
   line-height: 1.8;
 }
-
 /* Social Icons */
-
 .footer-socials {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-top: 24px;
 }
-
 .footer-socials button {
   width: 41px;
   height: 41px;
@@ -73,22 +63,15 @@
   border-radius: 11px;
   background-color: rgba(255, 255, 255, 0.05);
   cursor: pointer;
-  transition:
-    color 0.25s ease,
-    border-color 0.25s ease,
-    background-color 0.25s ease,
-    transform 0.25s ease;
+  transition: color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease, transform 0.25s ease;
 }
-
 .footer-socials button:hover {
   color: #ffffff;
   border-color: #0284c7;
   background-color: #0284c7;
   transform: translateY(-3px);
 }
-
 /* Footer Headings */
-
 .footer-links h3,
 .footer-contact h3 {
   position: relative;
@@ -98,7 +81,6 @@
   font-size: 17px;
   font-weight: 800;
 }
-
 .footer-links h3::after,
 .footer-contact h3::after {
   content: "";
@@ -110,39 +92,30 @@
   border-radius: 10px;
   background-color: #f97316;
 }
-
 /* Quick Links */
-
 .footer-links {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-
 .footer-links a {
   position: relative;
   margin-bottom: 13px;
   color: #94a3b8;
   font-size: 14px;
-  transition:
-    color 0.25s ease,
-    transform 0.25s ease;
+  transition: color 0.25s ease, transform 0.25s ease;
 }
-
 .footer-links a:hover {
   color: #38bdf8;
   transform: translateX(5px);
 }
-
 /* Contact */
-
 .footer-contact-item {
   display: flex;
   align-items: flex-start;
   gap: 13px;
   margin-bottom: 19px;
 }
-
 .footer-contact-icon {
   width: 39px;
   height: 39px;
@@ -155,7 +128,6 @@
   border-radius: 10px;
   background-color: rgba(14, 165, 233, 0.12);
 }
-
 .footer-contact-item strong {
   display: block;
   margin-bottom: 3px;
@@ -163,16 +135,13 @@
   font-size: 13px;
   font-weight: 700;
 }
-
 .footer-contact-item p {
   margin: 0;
   color: #94a3b8;
   font-size: 13px;
   line-height: 1.6;
 }
-
 /* Bottom Footer */
-
 .footer-bottom {
   min-height: 78px;
   display: flex;
@@ -181,19 +150,16 @@
   gap: 25px;
   border-top: 1px solid rgba(148, 163, 184, 0.14);
 }
-
 .footer-bottom > p {
   margin: 0;
   color: #64748b;
   font-size: 13px;
 }
-
 .footer-bottom-links {
   display: flex;
   align-items: center;
   gap: 22px;
 }
-
 .footer-bottom-links button {
   padding: 0;
   color: #64748b;
@@ -203,7 +169,6 @@
   cursor: pointer;
   transition: color 0.25s ease;
 }
-
 .footer-bottom-links button:hover {
   color: #38bdf8;
 }
@@ -211,9 +176,7 @@
   color: #fb923c;
   font-weight: 700;
 }
-
 /* Back To Top */
-
 .back-to-top {
   width: 45px;
   height: 45px;
@@ -231,52 +194,40 @@
   background: linear-gradient(135deg, #f97316, #fb923c);
   box-shadow: 0 9px 20px rgba(249, 115, 22, 0.25);
   cursor: pointer;
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-
 .back-to-top:hover {
   transform: translateY(-4px);
   box-shadow: 0 13px 25px rgba(249, 115, 22, 0.34);
 }
-
 /* Tablet */
-
 @media (max-width: 991px) {
   .footer-section {
     padding-top: 65px;
   }
-
   .footer-main {
     padding-bottom: 50px;
   }
 }
-
 /* Mobile */
-
 @media (max-width: 576px) {
   .footer-section {
     padding-top: 55px;
   }
-
   .footer-main {
     padding-bottom: 40px;
   }
-
   .footer-bottom {
     min-height: auto;
     align-items: flex-start;
     flex-direction: column;
     padding: 25px 0 85px;
   }
-
   .footer-bottom-links {
     align-items: flex-start;
     flex-direction: column;
     gap: 10px;
   }
-
   .back-to-top {
     right: 18px;
     bottom: 20px;

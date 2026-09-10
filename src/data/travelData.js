@@ -2,7 +2,6 @@ import goaImage from "../assets/goa.jpg";
 import manaliImage from "../assets/manali.jpg";
 import jaipurImage from "../assets/jaipur.jpg";
 import keralaImage from "../assets/kerala.jpg";
-
 export const destinations = [
   {
     id: 1,
@@ -37,7 +36,6 @@ export const destinations = [
     price: 18999,
   },
 ];
-
 export const packages = [
   {
     id: 1,
@@ -92,7 +90,6 @@ export const packages = [
     badge: "Recommended",
   },
 ];
-
 export const testimonials = [
   {
     id: 1,

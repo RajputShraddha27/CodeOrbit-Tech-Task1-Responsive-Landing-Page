@@ -48,40 +48,46 @@ Bootstrap Grid, CSS Flexbox, CSS Grid, and media queries are used to create the 
 ## Project Structure
 
 ```text
-src
-├── assets
-│   ├── hero-travel.jpg
-│   ├── goa.jpg
-│   ├── manali.jpg
-│   ├── jaipur.jpg
-│   └── kerala.jpg
-├── components
-│   ├── Navbar.jsx
-│   ├── Navbar.css
-│   ├── Hero.jsx
-│   ├── Hero.css
-│   ├── TravelSearch.jsx
-│   ├── TravelSearch.css
-│   ├── Destinations.jsx
-│   ├── Destinations.css
-│   ├── Packages.jsx
-│   ├── Packages.css
-│   ├── Offer.jsx
-│   ├── Offer.css
-│   ├── Features.jsx
-│   ├── Features.css
-│   ├── Testimonials.jsx
-│   ├── Testimonials.css
-│   ├── Newsletter.jsx
-│   ├── Newsletter.css
-│   ├── Footer.jsx
-│   └── Footer.css
-├── data
-│   └── travelData.js
-├── App.jsx
-├── App.css
-├── index.css
-└── main.jsx
+Task1-Responsive-Landing-Page
+├── public
+│   └── travel.png
+├── src
+│   ├── assets
+│   │   ├── hero-travel.jpg
+│   │   ├── goa.jpg
+│   │   ├── manali.jpg
+│   │   ├── jaipur.jpg
+│   │   └── kerala.jpg
+│   ├── components
+│   │   ├── Navbar.jsx
+│   │   ├── Navbar.css
+│   │   ├── Hero.jsx
+│   │   ├── Hero.css
+│   │   ├── TravelSearch.jsx
+│   │   ├── TravelSearch.css
+│   │   ├── Destinations.jsx
+│   │   ├── Destinations.css
+│   │   ├── Packages.jsx
+│   │   ├── Packages.css
+│   │   ├── Offer.jsx
+│   │   ├── Offer.css
+│   │   ├── Features.jsx
+│   │   ├── Features.css
+│   │   ├── Testimonials.jsx
+│   │   ├── Testimonials.css
+│   │   ├── Newsletter.jsx
+│   │   ├── Newsletter.css
+│   │   ├── Footer.jsx
+│   │   └── Footer.css
+│   ├── data
+│   │   └── travelData.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
 ```
 
 ## Installation and Setup

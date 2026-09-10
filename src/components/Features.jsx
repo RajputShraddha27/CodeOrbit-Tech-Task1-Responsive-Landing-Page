@@ -45,60 +45,44 @@ function Features() {
   return (
     <section className="features-section" id="about">
       <div className="container">
-
         <div className="features-heading">
           <span className="section-subtitle">Why choose WanderWay?</span>
-
           <h2>Travel With Confidence</h2>
-
           <p>
             From planning your journey to returning home, we make every step
             of your travel experience simple, comfortable and memorable.
           </p>
         </div>
-
         <div className="row g-4">
           {features.map((feature) => (
             <div className="col-12 col-sm-6 col-xl-3" key={feature.id}>
               <article className="feature-card">
-
                 <span className="feature-number">{feature.number}</span>
-
-                <div className="feature-icon">
-                  {feature.icon}
-                </div>
-
+                <div className="feature-icon">{feature.icon}</div>
                 <h3>{feature.title}</h3>
-
                 <p>{feature.description}</p>
-
               </article>
             </div>
           ))}
         </div>
-
         <div className="features-stats">
           <div className="feature-stat-item">
             <strong>10K+</strong>
             <span>Happy Travellers</span>
           </div>
-
           <div className="feature-stat-item">
             <strong>50+</strong>
             <span>Destinations</span>
           </div>
-
           <div className="feature-stat-item">
             <strong>200+</strong>
             <span>Tour Packages</span>
           </div>
-
           <div className="feature-stat-item">
             <strong>8+</strong>
             <span>Years of Experience</span>
           </div>
         </div>
-
       </div>
     </section>
   );

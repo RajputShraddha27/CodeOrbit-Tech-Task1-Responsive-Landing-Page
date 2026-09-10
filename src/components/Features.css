@@ -1,22 +1,13 @@
 .features-section {
   padding: 90px 0 100px;
-  background:
-    radial-gradient(
-      circle at top left,
-      rgba(14, 165, 233, 0.08),
-      transparent 35%
-    ),
-    #f8fafc;
+  background: radial-gradient(circle at top left, rgba(14, 165, 233, 0.08), transparent 35%), #f8fafc;
 }
-
 /* Heading */
-
 .features-heading {
   max-width: 700px;
   margin: 0 auto 43px;
   text-align: center;
 }
-
 .features-heading h2 {
   margin: 0;
   color: #0f172a;
@@ -24,16 +15,13 @@
   font-weight: 800;
   letter-spacing: -1.4px;
 }
-
 .features-heading p {
   margin: 14px 0 0;
   color: #64748b;
   font-size: 16px;
   line-height: 1.7;
 }
-
 /* Feature Card */
-
 .feature-card {
   height: 100%;
   position: relative;
@@ -43,18 +31,13 @@
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
-  transition:
-    transform 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 .feature-card:hover {
   transform: translateY(-9px);
   border-color: #bae6fd;
   box-shadow: 0 22px 42px rgba(15, 23, 42, 0.12);
 }
-
 .feature-number {
   position: absolute;
   top: 20px;
@@ -64,11 +47,9 @@
   font-weight: 900;
   transition: color 0.3s ease;
 }
-
 .feature-card:hover .feature-number {
   color: #fed7aa;
 }
-
 .feature-icon {
   width: 58px;
   height: 58px;
@@ -80,18 +61,13 @@
   font-size: 23px;
   border-radius: 17px;
   background-color: #e0f2fe;
-  transition:
-    color 0.3s ease,
-    background-color 0.3s ease,
-    transform 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
-
 .feature-card:hover .feature-icon {
   color: #ffffff;
   background: linear-gradient(135deg, #0284c7, #06b6d4);
   transform: rotate(-6deg) scale(1.06);
 }
-
 .feature-card h3 {
   margin: 0 0 12px;
   color: #0f172a;
@@ -99,16 +75,13 @@
   font-weight: 800;
   line-height: 1.4;
 }
-
 .feature-card p {
   margin: 0;
   color: #64748b;
   font-size: 14px;
   line-height: 1.75;
 }
-
 /* Statistics */
-
 .features-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -119,96 +92,75 @@
   background-color: #ffffff;
   box-shadow: 0 12px 35px rgba(15, 23, 42, 0.06);
 }
-
 .feature-stat-item {
   padding: 0 20px;
   text-align: center;
   border-right: 1px solid #e2e8f0;
 }
-
 .feature-stat-item:last-child {
   border-right: none;
 }
-
 .feature-stat-item strong,
 .feature-stat-item span {
   display: block;
 }
-
 .feature-stat-item strong {
   color: #0284c7;
   font-size: 29px;
   font-weight: 900;
 }
-
 .feature-stat-item span {
   margin-top: 4px;
   color: #64748b;
   font-size: 13px;
   font-weight: 600;
 }
-
 /* Tablet */
-
 @media (max-width: 991px) {
   .features-section {
     padding: 75px 0 85px;
   }
-
   .features-stats {
     grid-template-columns: repeat(2, 1fr);
     gap: 0;
   }
-
   .feature-stat-item {
     padding: 18px;
   }
-
   .feature-stat-item:nth-child(2) {
     border-right: none;
   }
-
   .feature-stat-item:nth-child(-n + 2) {
     border-bottom: 1px solid #e2e8f0;
   }
 }
-
 /* Mobile */
-
 @media (max-width: 576px) {
   .features-section {
     padding: 60px 0 70px;
   }
-
   .features-heading {
     margin-bottom: 30px;
   }
-
   .features-heading h2 {
     letter-spacing: -0.8px;
   }
-
   .features-heading p {
     font-size: 15px;
   }
-
   .feature-card {
     padding: 26px 22px;
   }
-
   .features-stats {
     margin-top: 40px;
     padding: 12px;
   }
-
   .feature-stat-item {
     padding: 18px 8px;
   }
-
   .feature-stat-item strong {
     font-size: 23px;
   }
-
   .feature-stat-item span {
     font-size: 11px;
   }

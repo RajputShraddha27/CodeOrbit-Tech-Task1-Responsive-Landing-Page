@@ -13,7 +13,6 @@ function Newsletter() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
     const trimmedEmail = email.trim();
 
     if (!trimmedEmail) {
@@ -40,46 +39,34 @@ function Newsletter() {
     <section className="newsletter-section">
       <div className="container">
         <div className="newsletter-card">
-
           <div className="newsletter-decoration newsletter-circle-one"></div>
           <div className="newsletter-decoration newsletter-circle-two"></div>
-
           <div className="row align-items-center g-4 newsletter-row">
-
             <div className="col-12 col-lg-6">
               <div className="newsletter-content">
-
                 <div className="newsletter-icon">
                   <FaEnvelope />
                 </div>
-
                 <div>
                   <span className="newsletter-label">
                     Travel inspiration
                   </span>
-
                   <h2>Get Exclusive Travel Deals</h2>
-
                   <p>
                     Subscribe to receive special offers, destination ideas and
                     useful travel tips directly in your inbox.
                   </p>
                 </div>
-
               </div>
             </div>
-
             <div className="col-12 col-lg-6">
               <div className="newsletter-form-wrapper">
-
                 <form className="newsletter-form" onSubmit={handleSubmit}>
                   <label htmlFor="newsletter-email" className="visually-hidden">
                     Email address
                   </label>
-
                   <div className="newsletter-input-group">
                     <FaEnvelope className="newsletter-input-icon" />
-
                     <input
                       type="email"
                       id="newsletter-email"
@@ -88,14 +75,12 @@ function Newsletter() {
                       placeholder="Enter your email address"
                       autoComplete="email"
                     />
-
                     <button type="submit">
                       <span>Subscribe</span>
                       <FaPaperPlane />
                     </button>
                   </div>
                 </form>
-
                 {message && (
                   <div
                     className={`newsletter-message ${messageType}`}
@@ -106,14 +91,11 @@ function Newsletter() {
                     <span>{message}</span>
                   </div>
                 )}
-
                 <p className="newsletter-privacy">
                   No spam. Unsubscribe whenever you want.
                 </p>
-
               </div>
             </div>
-
           </div>
         </div>
       </div>

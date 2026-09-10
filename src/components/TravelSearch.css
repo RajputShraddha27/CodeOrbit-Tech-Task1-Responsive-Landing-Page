@@ -4,16 +4,9 @@
   padding: 50px 0 45px;
   background-color: #f8fafc;
 }
-
 .travel-search-box {
   display: grid;
-  grid-template-columns:
-    minmax(220px, 1.4fr)
-    1px
-    minmax(190px, 1fr)
-    1px
-    minmax(180px, 0.9fr)
-    auto;
+  grid-template-columns: minmax(220px, 1.4fr) 1px minmax(190px, 1fr) 1px minmax(180px, 0.9fr) auto;
   align-items: center;
   gap: 20px;
   min-height: 120px;
@@ -24,16 +17,13 @@
   background-color: #ffffff;
   box-shadow: 0 20px 45px rgba(15, 23, 42, 0.13);
 }
-
 /* Search Field */
-
 .search-field {
   min-width: 0;
   display: flex;
   align-items: center;
   gap: 14px;
 }
-
 .search-field-icon {
   width: 46px;
   height: 46px;
@@ -46,12 +36,10 @@
   border-radius: 13px;
   background-color: #e0f2fe;
 }
-
 .search-field-content {
   min-width: 0;
   flex: 1;
 }
-
 .search-field-content label {
   display: block;
   margin-bottom: 5px;
@@ -59,7 +47,6 @@
   font-size: 13px;
   font-weight: 700;
 }
-
 .search-field-content select,
 .search-field-content input {
   width: 100%;
@@ -72,26 +59,20 @@
   background-color: transparent;
   cursor: pointer;
 }
-
 .search-field-content input {
   padding-right: 0;
 }
-
 .search-field-content select:focus,
 .search-field-content input:focus {
   color: #0f172a;
 }
-
 /* Divider */
-
 .search-divider {
   width: 1px;
   height: 55px;
   background-color: #e2e8f0;
 }
-
 /* Search Button */
-
 .travel-search-btn {
   min-width: 165px;
   min-height: 58px;
@@ -108,45 +89,34 @@
   background: linear-gradient(135deg, #0284c7, #06b6d4);
   box-shadow: 0 12px 25px rgba(2, 132, 199, 0.25);
   cursor: pointer;
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-
 .travel-search-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 16px 30px rgba(2, 132, 199, 0.34);
 }
-
 /* Tablet */
-
 @media (max-width: 991px) {
   .travel-search-section {
     padding: 40px 0 45px;
   }
-
   .travel-search-box {
     grid-template-columns: 1fr 1fr;
     gap: 22px;
     margin-top: 0;
   }
-
   .search-divider {
     display: none;
   }
-
   .travel-search-btn {
     width: 100%;
   }
 }
-
 /* Mobile */
-
 @media (max-width: 576px) {
   .travel-search-section {
     padding: 30px 0 40px;
   }
-
   .travel-search-box {
     grid-template-columns: 1fr;
     gap: 13px;
@@ -154,7 +124,6 @@
     padding: 18px;
     border-radius: 18px;
   }
-
   .search-field {
     min-height: 75px;
     padding: 13px;
@@ -162,12 +131,10 @@
     border-radius: 13px;
     background-color: #f8fafc;
   }
-
   .search-field-icon {
     width: 42px;
     height: 42px;
   }
-
   .travel-search-btn {
     min-height: 55px;
     margin-top: 4px;

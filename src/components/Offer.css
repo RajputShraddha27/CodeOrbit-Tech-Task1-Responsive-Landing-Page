@@ -3,50 +3,37 @@
   overflow: hidden;
   background-color: #ffffff;
 }
-
 .offer-card {
   position: relative;
   overflow: hidden;
   padding: 65px 70px;
   color: #ffffff;
   border-radius: 28px;
-  background:
-    linear-gradient(
-      125deg,
-      #062744 0%,
-      #075985 52%,
-      #0891b2 100%
-    );
+  background: linear-gradient(125deg, #062744 0%, #075985 52%, #0891b2 100%);
   box-shadow: 0 25px 60px rgba(2, 132, 199, 0.22);
 }
-
 .offer-row {
   position: relative;
   z-index: 3;
 }
-
 /* Decorative Circles */
-
 .offer-decoration {
   position: absolute;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.08);
 }
-
 .offer-circle-one {
   width: 330px;
   height: 330px;
   top: -180px;
   right: -80px;
 }
-
 .offer-circle-two {
   width: 220px;
   height: 220px;
   right: 230px;
   bottom: -150px;
 }
-
 .offer-plane-icon {
   position: absolute;
   top: 48px;
@@ -55,13 +42,10 @@
   font-size: 115px;
   transform: rotate(-15deg);
 }
-
 /* Offer Content */
-
 .offer-content {
   max-width: 720px;
 }
-
 .offer-label {
   width: fit-content;
   display: inline-flex;
@@ -76,11 +60,9 @@
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.12);
 }
-
 .offer-label svg {
   color: #fdba74;
 }
-
 .offer-content h2 {
   max-width: 700px;
   margin: 0;
@@ -90,11 +72,9 @@
   line-height: 1.15;
   letter-spacing: -1.7px;
 }
-
 .offer-content h2 span {
   color: #fb923c;
 }
-
 .offer-content > p {
   max-width: 650px;
   margin: 20px 0 0;
@@ -102,9 +82,7 @@
   font-size: 16px;
   line-height: 1.7;
 }
-
 /* Features */
-
 .offer-features {
   display: flex;
   align-items: center;
@@ -112,7 +90,6 @@
   gap: 20px;
   margin-top: 25px;
 }
-
 .offer-feature {
   display: inline-flex;
   align-items: center;
@@ -121,13 +98,10 @@
   font-size: 13px;
   font-weight: 600;
 }
-
 .offer-feature svg {
   color: #67e8f9;
 }
-
 /* Button */
-
 .offer-button {
   min-height: 52px;
   width: fit-content;
@@ -143,19 +117,14 @@
   border-radius: 13px;
   background: linear-gradient(135deg, #f97316, #fb923c);
   box-shadow: 0 12px 25px rgba(15, 23, 42, 0.2);
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-
 .offer-button:hover {
   color: #ffffff;
   transform: translateY(-3px);
   box-shadow: 0 16px 30px rgba(15, 23, 42, 0.28);
 }
-
 /* Discount Circle */
-
 .offer-discount-wrapper {
   display: flex;
   align-items: center;
@@ -163,7 +132,6 @@
   justify-content: center;
   text-align: center;
 }
-
 .offer-discount-circle {
   width: 220px;
   height: 220px;
@@ -176,24 +144,19 @@
   border: 9px solid rgba(255, 255, 255, 0.24);
   border-radius: 50%;
   background: linear-gradient(145deg, #ffffff, #e0f2fe);
-  box-shadow:
-    0 22px 45px rgba(15, 23, 42, 0.3),
-    inset 0 0 0 3px rgba(2, 132, 199, 0.1);
+  box-shadow: 0 22px 45px rgba(15, 23, 42, 0.3), inset 0 0 0 3px rgba(2, 132, 199, 0.1);
   transform: rotate(4deg);
   transition: transform 0.3s ease;
 }
-
 .offer-card:hover .offer-discount-circle {
   transform: rotate(0deg) scale(1.04);
 }
-
 .offer-discount-circle span {
   color: #075985;
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 2px;
 }
-
 .offer-discount-circle strong {
   margin: 2px 0;
   color: #f97316;
@@ -201,84 +164,66 @@
   font-weight: 900;
   line-height: 1;
 }
-
 .offer-discount-wrapper > p {
   margin: 15px 0 0;
   color: rgba(255, 255, 255, 0.77);
   font-size: 13px;
 }
-
 /* Tablet */
-
 @media (max-width: 991px) {
   .offer-section {
     padding-bottom: 85px;
   }
-
   .offer-card {
     padding: 55px 45px;
   }
-
   .offer-discount-wrapper {
     align-items: flex-start;
   }
-
   .offer-discount-circle {
     width: 190px;
     height: 190px;
   }
-
   .offer-plane-icon {
     top: auto;
     right: 30px;
     bottom: 35px;
   }
 }
-
 /* Mobile */
-
 @media (max-width: 576px) {
   .offer-section {
     padding: 10px 0 70px;
   }
-
   .offer-card {
     padding: 42px 22px;
     border-radius: 22px;
   }
-
   .offer-content h2 {
     font-size: 2.15rem;
     letter-spacing: -1px;
   }
-
   .offer-content > p {
     font-size: 15px;
   }
-
   .offer-features {
     align-items: flex-start;
     flex-direction: column;
     gap: 13px;
   }
-
   .offer-button {
     width: 100%;
   }
-
   .offer-discount-wrapper {
     align-items: center;
   }
-
   .offer-discount-circle {
     width: 175px;
     height: 175px;
   }
-
   .offer-discount-circle strong {
     font-size: 48px;
   }
-
   .offer-plane-icon {
     right: -25px;
     bottom: 35px;

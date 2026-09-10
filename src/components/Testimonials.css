@@ -2,15 +2,12 @@
   padding: 90px 0 100px;
   background-color: #ffffff;
 }
-
 /* Heading */
-
 .testimonials-heading {
   max-width: 700px;
   margin: 0 auto 43px;
   text-align: center;
 }
-
 .testimonials-heading h2 {
   margin: 0;
   color: #0f172a;
@@ -18,16 +15,13 @@
   font-weight: 800;
   letter-spacing: -1.4px;
 }
-
 .testimonials-heading p {
   margin: 14px 0 0;
   color: #64748b;
   font-size: 16px;
   line-height: 1.7;
 }
-
 /* Testimonial Card */
-
 .testimonial-card {
   height: 100%;
   position: relative;
@@ -36,27 +30,20 @@
   border-radius: 21px;
   background-color: #ffffff;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.07);
-  transition:
-    transform 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 .testimonial-card:hover {
   transform: translateY(-8px);
   border-color: #bae6fd;
   box-shadow: 0 22px 42px rgba(15, 23, 42, 0.13);
 }
-
 /* Stars and Quote */
-
 .testimonial-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
-
 .testimonial-stars {
   display: flex;
   align-items: center;
@@ -64,23 +51,17 @@
   color: #f59e0b;
   font-size: 15px;
 }
-
 .testimonial-quote {
   color: #bae6fd;
   font-size: 34px;
   line-height: 1;
-  transition:
-    color 0.3s ease,
-    transform 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
-
 .testimonial-card:hover .testimonial-quote {
   color: #38bdf8;
   transform: rotate(-8deg);
 }
-
 /* Review */
-
 .testimonial-review {
   min-height: 142px;
   margin: 22px 0 25px;
@@ -89,9 +70,7 @@
   font-style: italic;
   line-height: 1.8;
 }
-
 /* Customer */
-
 .testimonial-author {
   display: flex;
   align-items: center;
@@ -99,7 +78,6 @@
   padding-top: 20px;
   border-top: 1px solid #f1f5f9;
 }
-
 .testimonial-avatar {
   width: 48px;
   height: 48px;
@@ -115,55 +93,43 @@
   background: linear-gradient(135deg, #0284c7, #06b6d4);
   box-shadow: 0 7px 15px rgba(2, 132, 199, 0.2);
 }
-
 .testimonial-user h3 {
   margin: 0 0 3px;
   color: #0f172a;
   font-size: 15px;
   font-weight: 800;
 }
-
 .testimonial-user p {
   margin: 0;
   color: #94a3b8;
   font-size: 12px;
 }
-
 /* Tablet */
-
 @media (max-width: 991px) {
   .testimonials-section {
     padding: 75px 0 85px;
   }
-
   .testimonial-review {
     min-height: auto;
   }
 }
-
 /* Mobile */
-
 @media (max-width: 576px) {
   .testimonials-section {
     padding: 60px 0 70px;
   }
-
   .testimonials-heading {
     margin-bottom: 30px;
   }
-
   .testimonials-heading h2 {
     letter-spacing: -0.8px;
   }
-
   .testimonials-heading p {
     font-size: 15px;
   }
-
   .testimonial-card {
     padding: 25px 22px;
   }
-
   .testimonial-review {
     margin-top: 18px;
     font-size: 14px;
