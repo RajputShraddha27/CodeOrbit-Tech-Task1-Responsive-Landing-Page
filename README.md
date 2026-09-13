@@ -95,7 +95,7 @@ Task1-Responsive-Landing-Page
 Clone the repository:
 
 ```bash
-https://github.com/RajputShraddha27/CodeOrbit-Tech-Task1-Responsive-Landing-Page
+git clone https://github.com/RajputShraddha27/CodeOrbit-Tech-Task1-Responsive-Landing-Page
 ```
 
 Open the project folder:
